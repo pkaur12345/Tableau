@@ -8,11 +8,11 @@ An interactive Tableau dashboard that analyzes crime trends, crime categories, c
 
 ### Dashboard 1 – Crime Overview
 
-![Dashboard 1](images/dashboard1.png)
+![Dashboard 1](Screenshot 2026-07-08 182036.png)
 
 ### Dashboard 2 – Crime Insights
 
-![Dashboard 2](images/dashboard2.png)
+![Dashboard 2](
 
 ---
 
