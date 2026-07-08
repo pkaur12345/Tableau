@@ -1,78 +1,75 @@
-# Assembly Language CPU Registers Dashboard
+#CRIME ANALYSIS DASHBOARD
 
-An interactive Tableau dashboard that visualizes the architecture and functionality of CPU registers used in Assembly Language programming. The dashboard helps students and beginners understand different register types, their purposes, and their relationships within the CPU.
+An interactive Tableau dashboard that analyzes crime trends, crime categories, case outcomes, and temporal crime patterns. The dashboard enables users to identify high-crime categories, observe monthly trends, evaluate investigation outcomes, and explore crime intensity across different time periods.
 
 ---
 
 ## Dashboard Preview
 
-> Add a screenshot here.
+### Dashboard 1 – Crime Overview
 
-![Dashboard Preview](images/dashboard-preview.png)
+![Dashboard 1](images/dashboard1.png)
+
+### Dashboard 2 – Crime Insights
+
+![Dashboard 2](images/dashboard2.png)
 
 ---
 
 ## Project Overview
 
-Understanding CPU registers is one of the most important topics in Assembly Language. This dashboard provides a visual representation of:
+This project provides a comprehensive visualization of crime-related data using Tableau. It transforms raw crime records into interactive dashboards that help users identify trends, compare crime categories, and analyze crime patterns over time.
 
-- General Purpose Registers
-- Segment Registers
-- Index Registers
-- Special Purpose Registers
-- Register hierarchy (8-bit, 16-bit, 32-bit and 64-bit)
-- Purpose of each register
-
-The dashboard is designed as an educational aid for students studying Computer Organization, Microprocessors, and Assembly Language.
+The dashboards are intended for educational purposes and demonstrate data visualization techniques using Tableau.
 
 ---
 
-## Features
+## Objectives
 
-- Interactive visualization of CPU register architecture
-- Classification of all register types
-- Register purpose and functionality
-- Easy-to-understand layout
-- Educational dashboard for beginners
-- Clean and organized visual design
-
----
-
-## Register Categories Included
-
-### General Purpose Registers
-
-| Register | Purpose |
-|----------|---------|
-| AX / EAX / RAX | Accumulator Register |
-| BX / EBX / RBX | Base Register |
-| CX / ECX / RCX | Counter Register |
-| DX / EDX / RDX | Data Register |
+- Analyze crime distribution across different crime types.
+- Identify monthly and yearly crime trends.
+- Study crime intensity based on weekdays and weekends.
+- Compare crimes involving different weapon types.
+- Visualize investigation and case resolution status.
 
 ---
 
-### Segment Registers
+## Dashboard Features
 
-- Code Segment (CS)
-- Data Segment (DS)
-- Stack Segment (SS)
-- Extra Segment (ES)
+### Dashboard 1 – Crime Overview
+
+- Crime Type Analysis
+- Monthly Crime Pattern
+- Case Outcome Distribution
+- Interactive filtering and highlighting
+
+### Dashboard 2 – Crime Insights
+
+- Crime Intensity by Time Bucket
+- Weekday vs Weekend Comparison
+- Yearly Crime Trend
+- Crime Type vs Weapon Used
 
 ---
 
-### Index Registers
+## Key Insights
 
-- Source Index (SI)
-- Destination Index (DI)
+### Crime Overview
 
----
+- Domestic Violence recorded the highest number of reported crimes.
+- Theft recorded comparatively fewer cases.
+- Crime occurrences fluctuate across different months.
+- Case outcomes are categorized into:
+  - Investigating
+  - Open
+  - Resolved
 
-### Special Purpose Registers
+### Crime Insights
 
-- Instruction Pointer (IP)
-- Stack Pointer (SP)
-- Base Pointer (BP)
-- Flag Register (FLAGS)
+- Evening hours recorded the highest crime intensity.
+- Weekdays consistently experienced more crimes than weekends.
+- Overall crime rate shows an increasing trend over recent years.
+- Different crime categories exhibit distinct weapon usage patterns.
 
 ---
 
@@ -81,23 +78,24 @@ The dashboard is designed as an educational aid for students studying Computer O
 - Tableau Desktop
 - Microsoft Excel / CSV Dataset
 - Data Visualization
-- Assembly Language Concepts
+- Dashboard Design
 
 ---
 
 ## Files
 
 ```
-Assembly-Registers-Dashboard/
+Crime-Analysis-Dashboard/
 │
 ├── dashboard/
-│   └── Assembly Registers Dashboard.twbx
+│   └── Crime Analysis Dashboard.twbx
 │
 ├── data/
-│   └── registers.csv
+│   └── crime_dataset.csv
 │
 ├── images/
-│   └── dashboard-preview.png
+│   ├── dashboard1.png
+│   └── dashboard2.png
 │
 ├── README.md
 └── LICENSE
@@ -105,27 +103,41 @@ Assembly-Registers-Dashboard/
 
 ---
 
-## Learning Outcomes
+## Dataset
 
-This dashboard helps users understand:
+The dataset contains crime records with attributes such as:
 
-- CPU register organization
-- Difference between AX, EAX, and RAX
-- Purpose of General Purpose Registers
-- Segment Register functionality
-- Stack-related registers
-- Index registers
-- Register sizes (8-bit, 16-bit, 32-bit, 64-bit)
+- Crime Type
+- Date
+- Month
+- Year
+- Time Bucket
+- Day Type (Weekday / Weekend)
+- Weapon Used
+- Case Outcome
 
 ---
 
-## Dashboard Insights
+## Visualizations Used
 
-- Registers are grouped according to their functionality.
-- General Purpose Registers perform arithmetic and logical operations.
-- Segment Registers store memory segment addresses.
-- Index Registers assist in string and array operations.
-- Special Purpose Registers control program execution and stack management.
+- Horizontal Bar Chart
+- Line Chart
+- Pie Chart
+- Heatmap
+- Stacked Bar Chart
+
+---
+
+## Skills Demonstrated
+
+- Data Cleaning
+- Data Transformation
+- Tableau Dashboard Design
+- Interactive Filters
+- Calculated Fields
+- Trend Analysis
+- Data Storytelling
+- Business Intelligence
 
 ---
 
@@ -133,31 +145,33 @@ This dashboard helps users understand:
 
 1. Clone the repository
 
-```
-git clone https://github.com/yourusername/Assembly-Registers-Dashboard.git
+```bash
+git clone https://github.com/yourusername/Crime-Analysis-Dashboard.git
 ```
 
 2. Open the `.twbx` file using Tableau Desktop or Tableau Public.
 
 ---
 
-## Future Improvements
+## Future Enhancements
 
-- Interactive register comparison
-- Search functionality
-- CPU execution flow visualization
-- Assembly instruction demonstrations
-- Register animation using Tableau Story
+- Geographic crime map
+- Predictive crime trend forecasting
+- District-wise analysis
+- Dynamic dashboard filters
+- KPI cards
+- Police station-wise crime analysis
+- Drill-down dashboards
 
 ---
 
 ## Author
 
-**Ansh Sahni**
+**Parmeet Kaur**
+
+B.Tech Computer Science Engineering
 
 MIT World Peace University (MIT-WPU)
-
-Computer Science Engineering
 
 ---
 
