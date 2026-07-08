@@ -1,4 +1,4 @@
-#CRIME ANALYSIS DASHBOARD
+## CRIME ANALYSIS DASHBOARD
 
 An interactive Tableau dashboard that analyzes crime trends, crime categories, case outcomes, and temporal crime patterns. The dashboard enables users to identify high-crime categories, observe monthly trends, evaluate investigation outcomes, and explore crime intensity across different time periods.
 
@@ -12,7 +12,7 @@ An interactive Tableau dashboard that analyzes crime trends, crime categories, c
 
 ### Dashboard 2 – Crime Insights
 
-![Dashboard 2](
+![Dashboard 2](Screenshot 2026-07-08 182051.png)
 
 ---
 
